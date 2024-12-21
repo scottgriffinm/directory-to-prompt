@@ -9,7 +9,7 @@ The file will look something like this:
 
 pages/_app.js:
 
-*content of file*
+*contents of file*
 
 --------------------------
 
