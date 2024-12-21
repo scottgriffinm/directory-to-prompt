@@ -13,7 +13,7 @@ pages/_app.js:
 
 --------------------------
 
-pages/index.jsx:
+pages/api/switch-tier.js
 
 *contents of file*
 
