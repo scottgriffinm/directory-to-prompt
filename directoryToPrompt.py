@@ -1,6 +1,6 @@
 import os
 
-def generate_directory_contents_file(output_file, exclude_folders=None, exclude_files=None):
+def generate_directory_contents_file(base_dir, output_file, exclude_folders=None, exclude_files=None):
     if exclude_folders is None:
         exclude_folders = []
     if exclude_files is None:
@@ -36,7 +36,8 @@ def generate_directory_contents_file(output_file, exclude_folders=None, exclude_
                 out_file.write('\n' + '-' * 80 + '\n')
 
 if __name__ == '__main__':
-    # Specify the output file name
+    # Target directory and output file
+    base_directory = '.'
     output_filename = 'dir_prompt.txt'
     
     # Exclusions (adjust these as needed)
